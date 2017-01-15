@@ -12,6 +12,7 @@
 		8436D76E1E1E899E006ABCC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8436D76C1E1E899E006ABCC9 /* Main.storyboard */; };
 		8436D7701E1E899E006ABCC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8436D76F1E1E899E006ABCC9 /* Assets.xcassets */; };
 		8436D7731E1E899E006ABCC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8436D7711E1E899E006ABCC9 /* LaunchScreen.storyboard */; };
+		8436D77B1E1E8A07006ABCC9 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8436D77A1E1E8A07006ABCC9 /* background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8436D76F1E1E899E006ABCC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8436D7721E1E899E006ABCC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8436D7741E1E899E006ABCC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8436D77A1E1E8A07006ABCC9 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				8436D7681E1E899E006ABCC9 /* AppDelegate.swift */,
 				8436D76A1E1E899E006ABCC9 /* ViewController.swift */,
 				8436D76C1E1E899E006ABCC9 /* Main.storyboard */,
+				8436D77A1E1E8A07006ABCC9 /* background.jpg */,
 				8436D76F1E1E899E006ABCC9 /* Assets.xcassets */,
 				8436D7711E1E899E006ABCC9 /* LaunchScreen.storyboard */,
 				8436D7741E1E899E006ABCC9 /* Info.plist */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					8436D7641E1E899E006ABCC9 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 65643LMDXY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8436D7731E1E899E006ABCC9 /* LaunchScreen.storyboard in Resources */,
+				8436D77B1E1E8A07006ABCC9 /* background.jpg in Resources */,
 				8436D7701E1E899E006ABCC9 /* Assets.xcassets in Resources */,
 				8436D76E1E1E899E006ABCC9 /* Main.storyboard in Resources */,
 			);
@@ -258,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65643LMDXY;
 				INFOPLIST_FILE = "Weather App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.appevan.Weather-App";
@@ -270,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65643LMDXY;
 				INFOPLIST_FILE = "Weather App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.appevan.Weather-App";
@@ -297,6 +304,7 @@
 				8436D7791E1E899E006ABCC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
